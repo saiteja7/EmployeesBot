@@ -1,0 +1,160 @@
+{
+  "employees": [
+    {
+      "Employee Name": "Anitha Museni",
+      "Company Level": "3P",
+      "Minimum Billable Amount": 19200,
+      "Actual Client Bill Amount": 11497,
+      "Billable Hours": 142,
+      "Client Required Level": "2P",
+      "Client Assessed Level": "2P",
+      "Skills": "Azure, Java, Node.js",
+      "Years of Experience": 8,
+      "isHired": true
+    },
+    {
+      "Employee Name": "Arpit Chandak",
+      "Company Level": "3P",
+      "Minimum Billable Amount": 19200,
+      "Actual Client Bill Amount": 19377,
+      "Billable Hours": 167,
+      "Client Required Level": "3P",
+      "Client Assessed Level": "3P",
+      "Skills": "Kubernetes, Node.js",
+      "Years of Experience": 10,
+      "isHired": true
+    },
+    {
+      "Employee Name": "Ashish Poddar",
+      "Company Level": "3P",
+      "Minimum Billable Amount": 19200,
+      "Actual Client Bill Amount": 17098,
+      "Billable Hours": 148,
+      "Client Required Level": "3P",
+      "Client Assessed Level": "3P",
+      "Skills": "Java, MongoDB, Python",
+      "Years of Experience": 7,
+      "isHired": true
+    },
+    {
+      "Employee Name": "Bappi Modak",
+      "Company Level": "3P",
+      "Minimum Billable Amount": 19200,
+      "Actual Client Bill Amount": 19129,
+      "Billable Hours": 161,
+      "Client Required Level": "3P",
+      "Client Assessed Level": "3P",
+      "Skills": "MongoDB, Docker, Node.js",
+      "Years of Experience": 3,
+      "isHired": true
+    },
+    {
+      "Employee Name": "Kali Rath",
+      "Company Level": "3P",
+      "Minimum Billable Amount": 19200,
+      "Actual Client Bill Amount": 11300,
+      "Billable Hours": 142,
+      "Client Required Level": "3P",
+      "Client Assessed Level": "2P",
+      "Skills": "MongoDB, SQL, Azure",
+      "Years of Experience": 12,
+      "isHired": true
+    },
+    {
+      "Employee Name": "Nagarjuna MetlaDola",
+      "Company Level": "3P",
+      "Minimum Billable Amount": 19200,
+      "Actual Client Bill Amount": 18901,
+      "Billable Hours": 163,
+      "Client Required Level": "3P",
+      "Client Assessed Level": "3P",
+      "Skills": "Java",
+      "Years of Experience": 7,
+      "isHired": true
+    },
+    {
+      "Employee Name": "Nimish Aggarwal",
+      "Company Level": "3P",
+      "Minimum Billable Amount": 19200,
+      "Actual Client Bill Amount": 19537,
+      "Billable Hours": 164,
+      "Client Required Level": "3P",
+      "Client Assessed Level": "3P",
+      "Skills": "Node.js",
+      "Years of Experience": 9,
+      "isHired": true
+    },
+    {
+      "Employee Name": "Rutuja Dherange",
+      "Company Level": "3P",
+      "Minimum Billable Amount": 19200,
+      "Actual Client Bill Amount": 19867,
+      "Billable Hours": 162,
+      "Client Required Level": "3P",
+      "Client Assessed Level": "3P",
+      "Skills": "MongoDB, AWS, Python",
+      "Years of Experience": 11,
+      "isHired": true
+    },
+    {
+      "Employee Name": "SaiHaritha Dulugunti",
+      "Company Level": "2P",
+      "Minimum Billable Amount": 12800,
+      "Actual Client Bill Amount": 12770,
+      "Billable Hours": 166,
+      "Client Required Level": "2P",
+      "Client Assessed Level": "2P",
+      "Skills": "Docker",
+      "Years of Experience": 10,
+      "isHired": true
+    },
+    {
+      "Employee Name": "SaiTeja Srirambhatla",
+      "Company Level": "3P",
+      "Minimum Billable Amount": 19200,
+      "Actual Client Bill Amount": 12489,
+      "Billable Hours": 153,
+      "Client Required Level": "3P",
+      "Client Assessed Level": "2P",
+      "Skills": "AWS",
+      "Years of Experience": 3,
+      "isHired": true
+    },
+    {
+      "Employee Name": "Swaraj Inukonda",
+      "Company Level": "3P",
+      "Minimum Billable Amount": 19200,
+      "Actual Client Bill Amount": 17595,
+      "Billable Hours": 141,
+      "Client Required Level": "3P",
+      "Client Assessed Level": "3P",
+      "Skills": "Java",
+      "Years of Experience": 9,
+      "isHired": true
+    },
+    {
+      "Employee Name": "Tejesh Surabathula",
+      "Company Level": "3P",
+      "Minimum Billable Amount": 19200,
+      "Actual Client Bill Amount": 17527,
+      "Billable Hours": 148,
+      "Client Required Level": "3P",
+      "Client Assessed Level": "3P",
+      "Skills": "React",
+      "Years of Experience": 3,
+      "isHired": true
+    },
+    {
+      "Employee Name": "Vidhyadhari Alapati",
+      "Company Level": "3P",
+      "Minimum Billable Amount": 19200,
+      "Actual Client Bill Amount": 18221,
+      "Billable Hours": 157,
+      "Client Required Level": "3P",
+      "Client Assessed Level": "3P",
+      "Skills": "Python, Java",
+      "Years of Experience": 12,
+      "isHired": true
+    }
+  ]
+}
