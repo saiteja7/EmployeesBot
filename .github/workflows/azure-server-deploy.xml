@@ -1,0 +1,44 @@
+name: Deploy server (only on server/ changes)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'server/**'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'server/**'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies (server)
+        run: npm ci
+        working-directory: ./server
+
+      - name: Build (if applicable) - server
+        run: |
+          # If server/package.json contains a "build" script, run it; otherwise skip
+          if [ -f server/package.json ] && npm run --prefix server | grep -q ' build'; then
+            npm run --prefix server build
+          else
+            echo "No build script in server/, skipping"
+          fi
+
+      - name: Deploy to Azure Web App (server)
+        uses: azure/webapps-deploy@v2
+        with:
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: ./server
