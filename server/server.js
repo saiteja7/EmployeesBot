@@ -45,7 +45,6 @@ async function initCosmosDB() {
         const { database: db } = await cosmosClient.databases.createIfNotExists({ id: databaseId });
         database = db;
         console.log(`Database '${databaseId}' ready`);
-
         // Create container if it doesn't exist
         const { container: cont } = await database.containers.createIfNotExists({
             id: containerId,
