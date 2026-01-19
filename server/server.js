@@ -31,7 +31,7 @@ const cosmosClient = new CosmosClient({
     endpoint: process.env.COSMOS_DB_ENDPOINT,
     key: process.env.COSMOS_DB_KEY
 });
-
+console.log(process.env.COSMOS_DB_ENDPOINT);
 const databaseId = process.env.COSMOS_DB_DATABASE || 'ieba-db';
 const containerId = process.env.COSMOS_DB_CONTAINER || 'employees';
 
